@@ -1,0 +1,29 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.env
+venv/
+env/
+airflow_bot_venv/
+
+# IDE files
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+test_airflow/logs/
+
+# Temporary files
+*~
+dags/
+
+# Configuration files with sensitive data
+src/bot/config/dag_mapping.json

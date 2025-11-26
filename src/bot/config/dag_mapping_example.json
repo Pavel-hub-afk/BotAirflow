@@ -1,0 +1,64 @@
+{
+  "dags": [
+    {
+      "dag_name": "example_dag",
+      "config_variable": "example_config",
+      "tables": [
+        {
+          "table_name": "users_data",
+          "description": "Пример таблицы с данными пользователей"
+        },
+        {
+          "table_name": "department_info",
+          "description": "Пример таблицы с информацией о подразделениях"
+        }
+      ]
+    },
+    {
+      "dag_name": "example_data_load_dag",
+      "config_variable": "example_data_load_config",
+      "tables": [
+        {
+          "table_name": "department_info",
+          "description": "Пример таблицы с информацией о подразделениях"
+        },
+        {
+          "table_name": "employee_attributes",
+          "description": "Пример таблицы с атрибутами сотрудников"
+        },
+        {
+          "table_name": "salary_data",
+          "description": "Пример таблицы с данными о зарплатах"
+        },
+        {
+          "table_name": "assignment_history",
+          "description": "Пример таблицы с историей назначений"
+        },
+        {
+          "table_name": "staff_history",
+          "description": "Пример таблицы с историческими данными о штате"
+        },
+        {
+          "table_name": "salary_ranges",
+          "description": "Пример таблицы с диапазонами зарплат"
+        },
+        {
+          "table_name": "assignment_salaries",
+          "description": "Пример таблицы с зарплатами по назначениям"
+        },
+        {
+          "table_name": "staffing_dashboard",
+          "description": "Пример витрины данных по штатному расписанию"
+        },
+        {
+          "table_name": "hiring_data",
+          "description": "Пример витрины данных по приему на работу"
+        },
+        {
+          "table_name": "consolidated_costs",
+          "description": "Пример консолидированной витрины данных по затратам"
+        }
+      ]
+    }
+  ]
+}
